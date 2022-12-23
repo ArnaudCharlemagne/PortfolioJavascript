@@ -1,0 +1,52 @@
+.projet {
+    display: flex;
+    grid-gap: 50px;
+    margin: 30px;
+    font-size: 160%;
+    padding: 20px;
+    color: white;
+    border-radius: 10px;
+    animation: RGB 4s infinite;
+    align-items: center;
+}
+
+.explication {
+    border-radius: 10px;
+    animation: RGB2 4s infinite;
+    padding: 20px;
+    width: 72%;
+
+}
+
+.imagecréa {
+  width: 100%;
+  border-radius: 30px;
+}
+
+.imageprog {
+    width: 100%;
+    border-radius: 30px;
+}
+
+.imagecom {
+    width: 100%;
+    border-radius: 30px;
+}
+
+.imagejv {
+    width: 100%;
+    border-radius: 30px;
+}
+
+@keyframes RGB2 {
+    from, to { border: 1px solid hsl(324, 70%, 45%); }
+    10%      { border: 1px solid hsl(360, 65%, 45%); }
+    20%      { border: 1px solid hsl( 36, 80%, 45%); }
+    30%      { border: 1px solid hsl( 72, 75%, 35%); }
+    40%      { border: 1px solid hsl(108, 65%, 35%); }
+    50%      { border: 1px solid hsl(144, 75%, 35%); }
+    60%      { border: 1px solid hsl(180, 75%, 35%); }
+    70%      { border: 1px solid hsl(216, 60%, 45%); }
+    80%      { border: 1px solid hsl(252, 65%, 50%); }
+    90%      { border: 1px solid hsl(288, 60%, 40%); }
+}

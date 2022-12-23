@@ -1,0 +1,98 @@
+.présentation {
+    display: grid;
+    grid-template-columns: 3fr 2fr;
+    grid-template-rows: 300px 300px 300px;
+    grid-gap: 50px;
+    margin: 30px;
+    font-size: 130%;
+    padding: 20px;
+    /* color: white;*/
+    border-radius: 10px;
+    animation: RGB 4s infinite;
+}
+
+.texte {
+        border-radius: 10px;
+        animation: RGB2 4s infinite;
+        padding: 20px;
+}
+
+.image {
+    height: 100%;
+    border-radius: 30px;
+}
+
+.moi {
+    border-radius: 500px;
+    margin-left: 90px;
+}
+
+
+
+
+.slider {
+    width: 100%;
+    max-width: 800px;
+    height: 440px;
+    position: relative;
+    overflow: hidden;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .slide {
+    width: 100%;
+    max-width: 800px;
+    height: 400px;
+    position: absolute;
+    transition: all 0.5s;
+    text-align: center;
+
+  }
+  
+  .slide img {
+    width:50% ;
+    height: 70%;
+    object-fit: cover;
+  }
+  
+  .btn {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    padding: 10px;
+    border: none;
+    border-radius: 50%;
+    z-index: 10px;
+    cursor: pointer;
+    background-color: #fff;
+    font-size: 18px;
+  }
+  
+  .btn:active {
+    transform: scale(1.1);
+  }
+  
+  .btn-prev {
+    top: 45%;
+    left: 2%;
+  }
+  
+  .btn-next {
+    top: 45%;
+    right: 2%;
+  }
+
+
+@keyframes RGB2 {
+    from, to { border: 4px solid hsl(324, 70%, 45%); }
+    10%      { border: 4px solid hsl(360, 65%, 45%); }
+    20%      { border: 4px solid hsl( 36, 80%, 45%); }
+    30%      { border: 4px solid hsl( 72, 75%, 35%); }
+    40%      { border: 4px solid hsl(108, 65%, 35%); }
+    50%      { border: 4px solid hsl(144, 75%, 35%); }
+    60%      { border: 4px solid hsl(180, 75%, 35%); }
+    70%      { border: 4px solid hsl(216, 60%, 45%); }
+    80%      { border: 4px solid hsl(252, 65%, 50%); }
+    90%      { border: 4px solid hsl(288, 60%, 40%); }
+}

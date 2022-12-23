@@ -1,0 +1,23 @@
+@import url(composants/toolbar.css);
+@import url(composants/avatar.css);
+@import url(composants/Image.css);
+@import url(composants/Texteintro.css);
+@import url(composants/Projets.css);
+@import url(composants/Présentation.css);
+@import url(composants/Footer.css);
+@import url(composants/Responsive.css);
+
+body {
+    background-color: rgb(26, 25, 25);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.Darkmode {
+    background-color: aliceblue;
+    color: black !important;
+} 

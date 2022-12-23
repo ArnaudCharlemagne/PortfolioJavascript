@@ -1,0 +1,60 @@
+ul {
+  list-style-type: none; 
+  background-color: rgb(197, 99, 33);
+}
+
+li {
+  float: left;
+  font-size: 120%;
+}
+
+li a {
+  display: block;
+  color: aliceblue;
+  text-align: center;
+  padding: 19px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: black;
+  color: aliceblue;
+}
+
+.toolbar {
+  display: flex;
+  align-items: center;
+  position: fixed; /*fais en sorte que la barre de menu reste toujours en haut de l'écran*/
+  top: 0;
+  width: 100%;
+  background-color: rgb(197, 99, 33);
+}
+
+.mode button{
+  background-color: black;
+  animation: RGB 4s infinite;
+  padding: 10px;
+  color: aliceblue;
+}
+
+.Dark {
+  opacity: 0;
+}
+
+.light {
+  opacity: 100;
+}
+
+
+@keyframes RGB {
+  from, to { border: 2px solid hsl(324, 70%, 45%); }
+  10%      { border: 2px solid hsl(360, 65%, 45%); }
+  20%      { border: 2px solid hsl( 36, 80%, 45%); }
+  30%      { border: 2px solid hsl( 72, 75%, 35%); }
+  40%      { border: 2px solid hsl(108, 65%, 35%); }
+  50%      { border: 2px solid hsl(144, 75%, 35%); }
+  60%      { border: 2px solid hsl(180, 75%, 35%); }
+  70%      { border: 2px solid hsl(216, 60%, 45%); }
+  80%      { border: 2px solid hsl(252, 65%, 50%); }
+  90%      { border: 2px solid hsl(288, 60%, 40%); }
+}

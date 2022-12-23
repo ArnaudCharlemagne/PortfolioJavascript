@@ -1,0 +1,60 @@
+@media screen and (max-width: 1400px) {
+
+    * {
+        font-size: 15px;
+    }
+
+    .avatar {
+        visibility: hidden;
+    }
+
+    .explication {
+        width: 200%;
+    }
+
+    .imageintro {
+        height: 500px;
+    }
+
+}
+
+@media screen and (max-width: 1040px) {
+
+    .présentation {
+        font-size: 14px;
+    }
+
+    li a {
+        font-size: 14px;
+    }
+
+    .explication {
+        width: 300%;
+    }
+
+}
+
+@media screen and (max-width: 950px) {
+
+    .présentation {
+        font-size: 14px;
+    }
+
+    .texte {
+        overflow: auto;
+    }
+
+    li a {
+        font-size: 14px;
+    }
+
+    .explication {
+        width: 400%;
+    }
+
+    .imageintro {
+        height: 400px;
+    }
+
+}
+

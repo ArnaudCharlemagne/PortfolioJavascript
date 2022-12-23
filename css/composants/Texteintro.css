@@ -1,0 +1,26 @@
+.texteintro {
+    margin: 30px;
+    font-size: 160%;
+    padding: 20px;
+    text-align: justify;
+   /*  color: white; */
+    border-radius: 10px;
+    animation: RGB 4s infinite;
+  }
+
+  .menu {
+    margin-top: 100px;
+  }
+  
+ @keyframes RGB {
+      from, to { border: 4px solid hsl(324, 70%, 45%); }
+      10%      { border: 4px solid hsl(360, 65%, 45%); }
+      20%      { border: 4px solid hsl( 36, 80%, 45%); }
+      30%      { border: 4px solid hsl( 72, 75%, 35%); }
+      40%      { border: 4px solid hsl(108, 65%, 35%); }
+      50%      { border: 4px solid hsl(144, 75%, 35%); }
+      60%      { border: 4px solid hsl(180, 75%, 35%); }
+      70%      { border: 4px solid hsl(216, 60%, 45%); }
+      80%      { border: 4px solid hsl(252, 65%, 50%); }
+      90%      { border: 4px solid hsl(288, 60%, 40%); }
+  } 
